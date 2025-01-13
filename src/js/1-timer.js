@@ -15,6 +15,8 @@ const timerFields = {
 let userSelectedDate = null;
 let countdownInterval = null;
 
+startButton.disabled = false;
+
 flatpickr(dateTimePicker, {
   enableTime: true,
   time_24hr: true,
